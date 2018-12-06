@@ -2,9 +2,9 @@
 
 ## wc
 wc -lwc [file path]
--l : number of line of the file
--w : number of words inside file
--c : data-size of file
+1) -l : number of line of the file
+2) -w : number of words inside file
+3) -c : data-size of file
 
 ## tr 
 tr -d <delimiter ex. , \t, half space>
