@@ -16,3 +16,14 @@ tr command cannot take particular file as argument directly.
 
 ## sed
 
+## vimdiff
+
+## grep/egrep
+template
+  grep <option> <conditions> <file path>
+1) options
+  -i
+  -v
+  -E
+
+# Regular Expression
