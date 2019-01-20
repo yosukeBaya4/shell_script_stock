@@ -1,0 +1,5 @@
+#!/bin/bash
+
+SLEEP=5
+
+MAX_RETRY=3
