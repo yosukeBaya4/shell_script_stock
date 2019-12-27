@@ -1,5 +1,10 @@
 #!/bin/bash
 
-SLEEP=5
+SOURCE_DIR='XXXX'
+SOURCE_FILE='XXXX'
 
-MAX_RETRY=3
+# Write here parameters needed
+USER=dbadmin
+PASS=himitu
+HOST=postgresql_etl
+PORT=5432
