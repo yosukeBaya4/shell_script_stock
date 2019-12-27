@@ -5,13 +5,16 @@
 # Date: 20190120
 # purpose:
 # usage: sh ctl_tbl_check.sh $1 $2
-#           #$1 = executed day
-#           #$2 = path of logfile
+#           #$1 = description of 1st argument 
+#           #$2 = description of 2nd argument
 ########################################
 
 ### expand config file and set parameters
 
 TIMESTAMP=`date '+%Y%m%d%H%M'`
+
+TARGET_DIR='XXXX'
+TARGET_file='XXXX'
 
 # create log-file
 LOG_DIR=/home/ec2-user/environment/etl-work/red-batch/load/exec-bookmark/log/
@@ -30,14 +33,5 @@ if [[ -f $CF_FILE ]]; then
         exit 1
 fi 
 
-# set RAMDON number in range from 0 to 9
-NUM=$((RANDOM%3))
 
-### Main ###
-
-echo $NUM
-echo $SLEEP
-echo $MAX_RETRY
-
-
-sleep ${SLEEP}s
+### Main ETL consequence ###
