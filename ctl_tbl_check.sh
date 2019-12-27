@@ -3,7 +3,7 @@
 ########################################
 # Author: Yosuke.N
 # Date: 20190120
-# purpose
+# purpose:
 # usage: sh ctl_tbl_check.sh $1 $2
 #           #$1 = executed day
 #           #$2 = path of logfile
