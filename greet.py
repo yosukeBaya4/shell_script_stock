@@ -1,7 +1,8 @@
 def hello():
     greet01 = "Hello"
     greet02 = "Hora"
-    print(greet02)
+    # print(greet02)
+    return greet02
 
 a = 10
 b = 20
