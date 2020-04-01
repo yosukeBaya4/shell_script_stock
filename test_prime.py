@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 from prime import is_prime
+=======
+from ..prime import is_prime
+>>>>>>> e016f5b80a320848201224079795c07383cbed4a
 
 """
 def test_is_prime():
